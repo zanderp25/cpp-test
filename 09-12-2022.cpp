@@ -21,7 +21,7 @@ int main(){
     // inverse sine
     cout<<"The inverse sine of the remainder is "<<asin(r)<<endl;
     // answer in degrees
-    cout<<"The inverse sine in degrees is "<<asin(r)*180/M_PI<<endl;
+    cout<<"The inverse sine in degrees is "<<asin(p/q)*(180/M_PI)<<endl;
 
     return 0;
 }
