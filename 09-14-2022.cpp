@@ -17,17 +17,26 @@ int main(){
 
     // note: split lines due to terminator(;)
     cout<<"The adjusted precision for input value: "
-        <<setprecision(a)
-        <<b
+        << setprecision(a)
+        << b
     <<endl;
 
     unsigned int seed = time(0);
     // Set seed for random number generation
     srand(seed);
+    // srand(16);
 
     // Random number generation
-    cout<<"Printing a random number: "<<rand()<<endl;
-    cout<<"The seed is: "<<seed<<endl;
+    cout<<"Printing a random number: "
+        << rand()
+    <<endl;
+    cout<<"The seed is: "
+        << seed
+    <<endl;
+
+    cout<<"Using random: "
+        << random()
+    <<endl;
 
     return 0;
 }
