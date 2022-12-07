@@ -1,5 +1,5 @@
 /*  Name: Functions
-    Date: 11-30-2022
+    Date: 12-02-2022
 */
 
 #include <iostream>
@@ -42,7 +42,7 @@ int main(){
     // readLine
 
     // function call
-    meow_var = meow(quote);
+    meow_var = meow("hehe");
     woof_var = woof();
     moo_var = moo();
 
